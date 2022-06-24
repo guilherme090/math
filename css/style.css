@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+        'header header header header'
+        'menu main main main'
+        'menu footer footer footer'; 
+}
+
+.menu{
+    background-color: rgb(235, 228, 130);
+    grid-area: menu;
+    font-size: small;
+    padding-left: 4px;
+}
+
+.menu-item{
+    display: block;
+    
+}
+
+.main{
+    background-color: lightgrey;
+    grid-area: main;
+    padding: 4px;
+}
+
+#pa-soma{
+    display: inline;
+}
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    align-self: center;
+}
+
+input{
+    width: 40px;
+}
