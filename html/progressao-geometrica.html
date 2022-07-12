@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Progressão Geométrica</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <h1>Progressão Geométrica</h1>
+        <div class="grid-container">
+            <div class="menu">
+                <div class="menu-item">
+                    <label for="pg-a1">Primeiro termo (a1):</label>
+                    <input type="number" id="pg-a1" value="1">
+                </div>
+                <div class="menu-item">
+                    <label for="r">Razão (q):</label>
+                    <input type="number" id="pg-q" value="1">
+                </div>
+                <div class="menu-item">
+                    <label for="pg-n">Número de termos (n):</label>
+                    <input type="number" id="pg-n" min="1" value="1">                   
+                </div>
+                <div class="menu-item">
+                    <button id="generate-geometric-progression">Calcular</button>                  
+                </div>
+            </div>
+            <div class="main">
+                Soma:
+                <div id="pg-soma">
+                    1
+                </div>
+                <br>Progressão:
+                <div id="progressao">
+                    1
+                </div>
+            </div>
+            <div class="footer">
+                Produzido por: Guilherme Simões
+            </div>
+        </div>
+    </body>
+    <script src="../javascript/geometric-progression.js"></script>
+</html>
